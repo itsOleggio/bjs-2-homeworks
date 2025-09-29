@@ -9,8 +9,6 @@ function solveEquation(a, b, c) {
         arr.push(((-b) - Math.sqrt(discr)) / (2 * a));
     } else if (discr === 0) {
         arr.push((-b) / (2 * a));
-    } else if (discr < 0) {
-        arr.push();
     }
     return arr;
 }
